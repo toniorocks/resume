@@ -1,0 +1,54 @@
+.d-flex-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+
+  .pill-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pill-list .pill {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50px; /* This creates the pill shape */
+    padding: 5px 10px; /* Adjust padding as needed */
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+
+  .location{
+    display: flex;align-items: center; margin: 5px 0;
+  }
+  
